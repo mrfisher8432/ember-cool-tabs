@@ -1,21 +1,17 @@
-import {
-  moduleForComponent,
-  test
-} from 'ember-qunit';
+import { moduleForComponent, test } from 'ember-qunit';
 
-moduleForComponent('ez-tab-list', 'EzTabListComponent', {
-  // specify the other units that are required for this test
-  // needs: ['component:foo', 'helper:bar']
+moduleForComponent('ez-tab-list', 'Unit | Component | ez tab list', {
+  // Specify the other units that are required for this test
+  // needs: ['component:foo', 'helper:bar'],
+  unit: true
 });
 
-test('it renders', function() {
-  expect(2);
+test('it renders', function(assert) {
+  assert.expect(1);
 
-  // creates the component instance
+  // Creates the component instance
   var component = this.subject();
-  equal(component._state, 'preRender');
-
-  // appends the component to the page
-  this.append();
-  equal(component._state, 'inDOM');
+  // Renders the component to the page
+  this.render();
+  assert.equal(this.$().text(), '');
 });
