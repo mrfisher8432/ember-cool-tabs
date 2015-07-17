@@ -1,10 +1,3 @@
-import Ember from 'ember';
+import EzTabs from 'ember-ez-tabs/ez-tabs';
 
-export default Ember.Component.extend({
-
-  /**
-   * Currently selected tab
-   */
-  selectedIndex: 0
-
-});
+export default EzTabs;
