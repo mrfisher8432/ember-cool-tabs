@@ -16,3 +16,6 @@
 npm-debug.log
 testem.log
 .idea/
+/.idea
+.idea/*
+/.idea/*
