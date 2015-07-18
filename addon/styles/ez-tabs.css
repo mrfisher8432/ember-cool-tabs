@@ -1,0 +1,35 @@
+.tabs {
+  margin: 0 0 0 10px;
+  padding: 0;
+}
+
+.tabs .tab {
+  display: inline-block;
+  border: 1px solid #ccc;
+  float: left;
+  cursor: pointer;
+  height: 30px;
+  line-height: 25px;
+  margin: 0 1px 0 0;
+  padding: 1px 7px;
+  position: relative;
+  border-radius: 7px 7px 0 0;
+  background-color: #cdcdcd;
+  color: #000;
+}
+
+.tabs .tab.selected-tab {
+  background: #fff !important;
+  color: #000 !important;
+  border-bottom: 1px solid #fff;
+}
+
+.tab-content {
+  top: -1px;
+  position: relative;
+  clear: both;
+  background-color: #fff;
+  border-radius: 7px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
