@@ -8,7 +8,7 @@ This README outlines the details of collaborating on this Ember addon.
 
 ## Usage Example
 
-```
+```handlebars
   {{#ez-tabs}}
     {{#ez-tab-list}}
       {{#ez-tab}}One{{/ez-tab}}
