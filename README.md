@@ -4,22 +4,21 @@ This README outlines the details of collaborating on this Ember addon.
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+* `npm install --save-dev ember-ez-tabs`
 
-## Running
+## Usage Example
 
-* `ember server`
-* Visit your app at http://localhost:4200.
-
-## Running Tests
-
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+```
+  {{#ez-tabs}}
+    {{#ez-tab-list}}
+      {{#ez-tab}}One{{/ez-tab}}
+      {{#ez-tab}}Two{{/ez-tab}}
+      {{#ez-tab}}Three{{/ez-tab}}
+    {{/ez-tab-list}}
+    {{#ez-tab-panel-list}}
+      {{#ez-tab-panel}}Content One{{/ez-tab-panel}}
+      {{#ez-tab-panel}}Content Two{{/ez-tab-panel}}
+      {{#ez-tab-panel}}Content Three{{/ez-tab-panel}}
+    {{/ez-tab-panel-list}}
+  {{/ez-tabs}}
+```
