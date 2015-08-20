@@ -43,10 +43,8 @@ export default Ember.Component.extend({
     this.set('selected-tab', false);
   },
 
-  actions: {
-    selectTab: function() {
-      this.set('selectedIndex', this.get('index'));
-    }
+  click: function() {
+    this.set('selectedIndex', this.get('index'));
   }
 
 });
