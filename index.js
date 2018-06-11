@@ -2,5 +2,5 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-ez-tabs'
+  name: 'ember-cool-tabs'
 };

@@ -1,6 +1,6 @@
 {
-  "name": "ember-ez-tabs",
-  "version": "0.0.3",
+  "name": "ember-cool-tabs",
+  "version": "1.0.0",
   "description": "The default blueprint for ember-cli addons.",
   "directories": {
     "doc": "doc",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/forticulous/ember-ez-tabs"
+    "url": "https://github.com/mrfisher8432/ember-cool-tabs"
   },
   "engines": {
     "node": ">= 0.10.0"
@@ -47,7 +47,7 @@
     "tabs"
   ],
   "dependencies": {
-    "ember-cli-babel": "^5.0.0"
+    "ember-cli-babel": "^6.0.0"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"

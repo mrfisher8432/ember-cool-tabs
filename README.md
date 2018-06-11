@@ -1,10 +1,10 @@
-# Ember-ez-tabs
+# Ember-cool-tabs
 
 This README outlines the details of collaborating on this Ember addon.
 
 ## Installation
 
-* `npm install --save-dev ember-ez-tabs`
+* `npm install --save-dev ember-cool-tabs`
 
 ## Usage Example
 
