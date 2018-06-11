@@ -1,3 +1,3 @@
-import EzTabPanelList from 'ember-ez-tabs/ez-tab-panel-list';
+import EzTabPanelList from 'ember-cool-tabs/ez-tab-panel-list';
 
 export default EzTabPanelList;
