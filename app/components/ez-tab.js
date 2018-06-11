@@ -1,3 +1,3 @@
-import EzTab from 'ember-ez-tabs/ez-tab';
+import EzTab from 'ember-cool-tabs/ez-tab';
 
 export default EzTab;
